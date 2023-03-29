@@ -1,0 +1,76 @@
+public class Main {
+    public static void main(String[] args) {
+        //1st Exercise
+        //with println
+        System.out.println("The java programming language was developed by");
+        System.out.println("James Gosling at Sun Microsystems in 1991");
+        System.out.println("When the World Wide Web appeared on the Internet in 1993");
+        System.out.println("The language was enhanced to facilitate programming on the web");
+
+        //with print
+        System.out.print("The Java programming language was developed by");
+        System.out.print("James Gosling at Sun Microsystems in 1991");
+        System.out.print("When the World Wide Web appeared on the Internet in 1993");
+        System.out.print("The language was enhanced to facilitate programming on the Web");
+        }
+}
+public class Main {
+    public static void main(String[] args) {
+//2nd Exercise
+int var_byte = 565;
+int var_short = 58624;
+int var_long = 568215695;
+int var_int = 532658;
+float var_float = (float) 0.523614;
+double var_double =0.8962154625;
+boolean Yes= true;
+char Letter = 'I';
+
+
+System.out.println(var_byte);
+System.out.println(var_short);
+System.out.println(var_long);
+System.out.println(var_int);
+System.out.println(var_float);
+System.out.println(var_double);
+System.out.println(Yes);
+System.out.println(Letter); } 
+}
+
+public class Main {
+public static void main(String[] args) {
+//3rd exercise
+float g = (float) 9.81;
+int t = 1;
+int time =5;
+
+float s = (g*t*t) / 2; //distance
+float u = g*t; //velocity
+
+float d= (g*time*time)/2; //distance
+float v= g*time; //velocity
+
+System.out.printf(" The distance is : %f" , s );
+System.out.printf(" The velocity after 1 second : %2f" , u);
+
+System.out.printf(" After 5 seconds the distance is : %f" , d );
+System.out.printf(" The velocity after 5 second : %2f" , v);}
+}
+
+
+public class Main {
+public static void main(String[] args) {
+
+
+//4rd exercise
+int num1 = (int)(Math.random()*10) + 1;
+int num2 =  (int)(Math.random()*10) + 1;
+
+System.out.println("First number: " + num1);
+System.out.println("Second number: " + num2);
+
+if(num1>num2) {
+    System.out.println("Number 1 is greater than Number 2");
+}
+     }
+}
